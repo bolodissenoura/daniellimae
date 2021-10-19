@@ -1,6 +1,6 @@
 <h1 align="center"> Meu Portifólio !!! </h1>
 
-<p align="center"> Fico feliz que quira conehcer mais sobre mim, este é um projeto de SPA bem básico, 
+<p align="center"> Fico feliz que queira conhecer mais sobre mim, este é um projeto de SPA bem básico, 
 onde mostro quem sou, o que faço/sei e o que já fiz !!! </p>
 
 <h1 align="center">
@@ -9,3 +9,5 @@ onde mostro quem sou, o que faço/sei e o que já fiz !!! </p>
 </h1>
 
 ![Alt Text](https://media.giphy.com/media/J3rQH9z5X0QhQGG5kY/giphy-downsized-large.gif)
+
+<p>Tecnologias utilizadas : Bootstrap, Html, Css, Javascrip, Swipper.JS </p>
