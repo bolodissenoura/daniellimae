@@ -7,4 +7,4 @@ onde mostro quem sou, o que faço/sei e o que já fiz !!! </p>
     <a href="https://bolodissenoura.github.io/daniellimae/">🔗 Um breve resumo do que você verá</a>
 </h1>
 
-![Alt Text](https://giphy.com/embed/J3rQH9z5X0QhQGG5kY)
+![Alt Text](https://media.giphy.com/media/J3rQH9z5X0QhQGG5kY/giphy-downsized-large.gif)
