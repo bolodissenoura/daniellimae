@@ -129,6 +129,23 @@ BEM VINDO AO MUNDO DANIEL :)
               <i class="lni lni-bolt"></i>
             </div>
             <div class="ud-feature-content">
+              <h3 class="ud-feature-title">Cyrela</h3>
+              <p class="ud-feature-desc">
+                Building and planning software on the web and mobile, in order to make life easier for clients and
+                brokers.
+              </p>
+              <a href="https://www.cyrela.com.br" target="_blank" class="btn btn-dark">
+                More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-6">
+          <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
+            <div class="ud-feature-icon">
+              <i class="lni lni-bolt"></i>
+            </div>
+            <div class="ud-feature-content">
               <h3 class="ud-feature-title">Fpass ( Current Work )</h3>
               <p class="ud-feature-desc">
                 Fpass is a Lifelong Learning ecosystem with the purpose of transforming education
@@ -268,6 +285,8 @@ BEM VINDO AO MUNDO DANIEL :)
             <p>
               All these technologies I've worked on and been on real projects.
             </p>
+            <br>
+            <h2>--></h2>
           </div>
         </div>
       </div>
@@ -426,125 +445,86 @@ BEM VINDO AO MUNDO DANIEL :)
         </div>
 
       </div>
-      <!-- Gallery -->
-      <div class="row ">
-        <div class="ud-section-title mx-auto text-center">
-          <br>
-          <p>
-            (design) Ux / Ui projects :
-          </p>
+
+      <footer class="bg-light text-center text-white">
+
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(30, 30, 47)">
+          © 2021 Copyright:
+          <a class="text-white" href="https://linkr.bio/daniellimae"> Daniel Lima :)</a>
         </div>
-      </div>
-
-      <!-- Gallery -->
-      <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <img src="./assets/images/fotosProjetos/coegiLogo.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-          <img src="./assets/images/fotosProjetos/btSite.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-          <img src="./assets/images/fotosProjetos/GigiKilinda (1).png" class="w-100 shadow-1-strong rounded mb-4"
-            alt="" />
-        </div>
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img src="./assets/images/fotosProjetos/GSM.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-          <img src="./assets/images/fotosProjetos/Frame 2 (5).png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-          <img src="./assets/images/fotosProjetos/Frame 1.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img src="./assets/images/fotosProjetos/nutrempSite.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-          <img src="./assets/images/fotosProjetos/Nutremp (3).png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-
-        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- footer final  -->
 
 
+      <!-- ====== Fotos Final====== -->
 
-      </div>
-      <!-- Gallery -->
+      <!-- ====== Back To Top Start ====== -->
+      <a href="#home" class="back-to-top">
+        <i class="lni lni-chevron-up"> </i>
+      </a>
+      <!-- ====== Back To Top End ====== -->
 
-    </div>
-  </section>
+      <!-- ====== All Javascript Files ====== -->
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/wow.min.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script>
+        // ==== for menu scroll
+        const pageLink = document.querySelectorAll(".ud-menu-scroll");
 
-
-
-  <footer class="bg-light text-center text-white">
-
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(30, 30, 47)">
-      © 2021 Copyright:
-      <a class="text-white" href="https://linkr.bio/daniellimae"> Daniel Lima :)</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- footer final  -->
-
-
-  <!-- ====== Fotos Final====== -->
-
-  <!-- ====== Back To Top Start ====== -->
-  <a href="#home" class="back-to-top">
-    <i class="lni lni-chevron-up"> </i>
-  </a>
-  <!-- ====== Back To Top End ====== -->
-
-  <!-- ====== All Javascript Files ====== -->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script>
-    // ==== for menu scroll
-    const pageLink = document.querySelectorAll(".ud-menu-scroll");
-
-    pageLink.forEach((elem) => {
-      elem.addEventListener("click", (e) => {
-        e.preventDefault();
-        document.querySelector(elem.getAttribute("href")).scrollIntoView({
-          behavior: "smooth",
-          offsetTop: 1 - 60,
+        pageLink.forEach((elem) => {
+          elem.addEventListener("click", (e) => {
+            e.preventDefault();
+            document.querySelector(elem.getAttribute("href")).scrollIntoView({
+              behavior: "smooth",
+              offsetTop: 1 - 60,
+            });
+          });
         });
-      });
-    });
 
-    // section menu active
-    function onScroll(event) {
-      const sections = document.querySelectorAll(".ud-menu-scroll");
-      const scrollPos =
-        window.pageYOffset ||
-        document.documentElement.scrollTop ||
-        document.body.scrollTop;
+        // section menu active
+        function onScroll(event) {
+          const sections = document.querySelectorAll(".ud-menu-scroll");
+          const scrollPos =
+            window.pageYOffset ||
+            document.documentElement.scrollTop ||
+            document.body.scrollTop;
 
-      for (let i = 0; i < sections.length; i++) {
-        const currLink = sections[i];
-        const val = currLink.getAttribute("href");
-        const refElement = document.querySelector(val);
-        const scrollTopMinus = scrollPos + 73;
-        if (
-          refElement.offsetTop <= scrollTopMinus &&
-          refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
-        ) {
-          document
-            .querySelector(".ud-menu-scroll")
-            .classList.remove("active");
-          currLink.classList.add("active");
-        } else {
-          currLink.classList.remove("active");
+          for (let i = 0; i < sections.length; i++) {
+            const currLink = sections[i];
+            const val = currLink.getAttribute("href");
+            const refElement = document.querySelector(val);
+            const scrollTopMinus = scrollPos + 73;
+            if (
+              refElement.offsetTop <= scrollTopMinus &&
+              refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+            ) {
+              document
+                .querySelector(".ud-menu-scroll")
+                .classList.remove("active");
+              currLink.classList.add("active");
+            } else {
+              currLink.classList.remove("active");
+            }
+          }
         }
-      }
-    }
 
-    window.document.addEventListener("scroll", onScroll);
-  </script>
-  <!-- Swiper JS -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        window.document.addEventListener("scroll", onScroll);
+      </script>
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "cards",
-      grabCursor: true,
-    });
-  </script>
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "cards",
+          grabCursor: true,
+        });
+      </script>
 </body>
 
 </html>
