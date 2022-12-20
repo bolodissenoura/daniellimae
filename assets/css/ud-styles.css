@@ -11,14 +11,16 @@
   COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+/* line 6, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 :root {
   --font: "Inter", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #1E1E2F;
+  --primary-color: #04060a;
   --white: #ffffff;
 }
 
+/* line 14, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 body {
   font-family: var(--font);
   font-weight: normal;
@@ -27,33 +29,33 @@ body {
   overflow-x: hidden;
 }
 
+/* line 22, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  
-}
-@media (max-width: 600px)
-{
-  *
-   {
-    overflow-x: hidden;
-   }
 }
 
+/* line 28, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 img {
   max-width: 100%;
 }
 
+/* line 32, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 a,
 button,
 input,
 textarea {
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
+/* line 39, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 a,
 a:focus,
 input:focus,
@@ -62,21 +64,23 @@ button:focus,
 .navbar-toggler:focus {
   text-decoration: none;
   outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
+/* line 50, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 a:focus,
 a:hover {
   text-decoration: none;
 }
 
+/* line 55, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 i,
 span,
 a {
   display: inline-block;
 }
 
+/* line 61, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 audio,
 canvas,
 iframe,
@@ -86,6 +90,7 @@ video {
   vertical-align: middle;
 }
 
+/* line 70, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 h1,
 h2,
 h3,
@@ -97,30 +102,37 @@ h6 {
   margin: 0px;
 }
 
+/* line 81, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 h1 {
   font-size: 48px;
 }
 
+/* line 84, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 h2 {
   font-size: 36px;
 }
 
+/* line 87, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 h3 {
   font-size: 28px;
 }
 
+/* line 90, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 h4 {
   font-size: 22px;
 }
 
+/* line 93, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 h5 {
   font-size: 18px;
 }
 
+/* line 96, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 h6 {
   font-size: 16px;
 }
 
+/* line 100, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 ul,
 ol {
   margin: 0px;
@@ -128,6 +140,7 @@ ol {
   list-style-type: none;
 }
 
+/* line 107, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 p {
   font-size: 16px;
   font-weight: 400;
@@ -136,6 +149,7 @@ p {
   margin: 0px;
 }
 
+/* line 115, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 .bg_cover {
   background-position: center center;
   background-size: cover;
@@ -145,6 +159,7 @@ p {
 }
 
 /*===== All Button Style =====*/
+/* line 125, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 .ud-main-btn {
   display: inline-block;
   text-align: center;
@@ -159,16 +174,21 @@ p {
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   background: var(--primary-color);
 }
 
+/* line 142, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 .ud-main-btn:hover {
   color: var(--white);
   background: var(--heading-color);
 }
 
 @media (max-width: 767px) {
+  /* line 148, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
   .container {
     padding-left: 40px;
     padding-right: 40px;
@@ -176,26 +196,23 @@ p {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 148, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
   .container {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
+/* line 159, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 .back-to-top {
   width: 40px;
   height: 40px;
   line-height: 40px;
   background: var(--primary-color);
-  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
   position: fixed;
   right: 30px;
@@ -204,12 +221,14 @@ p {
   color: var(--white);
 }
 
+/* line 175, ../../../../../Desktop/work/daniellimae/assets/scss/_common.scss */
 .back-to-top:hover {
   color: var(--white);
   background: var(--heading-color);
 }
 
 /* ===== Header CSS ===== */
+/* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .ud-header {
   position: absolute;
   top: 0;
@@ -217,51 +236,68 @@ p {
   width: 100%;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
+/* line 11, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky {
   position: fixed;
   z-index: 99;
   background-color: rgba(255, 255, 255, 0.8);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
+/* line 19, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar {
   padding: 0;
 }
 
+/* line 24, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar {
   padding: 0px 0;
   border-radius: 5px;
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
+/* line 31, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-brand {
   padding: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 31, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-brand {
     padding: 5px 0px;
   }
 }
 
+/* line 38, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-brand img {
   max-width: 160px;
 }
 
+/* line 43, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-toggler {
   padding: 0;
 }
 
+/* line 46, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
@@ -270,26 +306,39 @@ p {
   margin: 5px 0;
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
+/* line 58, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-toggler.active .toggler-icon:nth-of-type(1) {
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
   transform: rotate(45deg);
   top: 7px;
 }
 
+/* line 63, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-toggler.active .toggler-icon:nth-of-type(2) {
   opacity: 0;
 }
 
+/* line 67, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-toggler.active .toggler-icon:nth-of-type(3) {
   -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
   transform: rotate(135deg);
   top: -7px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 75, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -299,50 +348,61 @@ p {
     background-color: var(--white);
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     padding: 0px;
     display: none;
     border-radius: 5px;
   }
+  /* line 89, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-collapse.show {
     display: block;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 95, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-nav {
     padding: 20px 30px;
   }
 }
 
+/* line 100, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item {
   position: relative;
   padding: 0px 20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 100, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-nav .nav-item {
     padding: 0px 12px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 100, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-nav .nav-item {
     padding: 0px;
   }
 }
 
+/* line 112, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item > a {
   font-size: 16px;
   font-weight: 400;
   color: var(--white);
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 25px 8px;
   position: relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 112, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-nav .nav-item > a {
     display: block;
     padding: 8px 0;
@@ -350,38 +410,43 @@ p {
   }
 }
 
+/* line 126, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item > a:hover, .navbar-nav .nav-item > a.active {
   color: var(--white);
   opacity: 0.5;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 126, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-nav .nav-item > a:hover, .navbar-nav .nav-item > a.active {
     color: var(--primary-color);
     opacity: 1;
   }
 }
 
+/* line 138, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item .ud-submenu {
   position: absolute;
   width: 250px;
   background: var(--white);
   top: 110%;
   padding: 20px 30px;
-  -webkit-box-shadow: 0 15px 44px rgba(140, 140, 140, 0.18);
-          box-shadow: 0 15px 44px rgba(140, 140, 140, 0.18);
+  box-shadow: 0 15px 44px rgba(140, 140, 140, 0.18);
   border-radius: 5px;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 138, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-nav .nav-item .ud-submenu {
     position: static;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     width: 100%;
     padding: 0px;
     opacity: 1;
@@ -390,152 +455,180 @@ p {
   }
 }
 
+/* line 160, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item .ud-submenu.show {
   display: block;
 }
 
+/* line 164, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item .ud-submenu .ud-submenu-link {
   padding: 7px 0;
   color: var(--heading-color);
   font-size: 14px;
 }
 
+/* line 169, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item .ud-submenu .ud-submenu-link:hover {
   color: var(--primary-color);
 }
 
+/* line 176, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item:hover > a {
   color: var(--white);
   opacity: 0.5;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 176, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-nav .nav-item:hover > a {
     color: var(--primary-color);
     opacity: 1;
   }
 }
 
+/* line 186, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item:hover > .ud-submenu {
   opacity: 1;
   visibility: visible;
   top: 100%;
 }
 
+/* line 194, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item.nav-item-has-children > a {
   position: relative;
 }
 
+/* line 197, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-nav .nav-item.nav-item-has-children > a::after {
   content: "";
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: absolute;
   width: 10px;
   height: 10px;
   border-bottom: 2px solid;
   border-right: 2px solid;
-  -webkit-transform: rotate(45deg) translateY(-50%);
-          transform: rotate(45deg) translateY(-50%);
+  transform: rotate(45deg) translateY(-50%);
   right: -15px;
   top: 50%;
   margin-top: -2px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 197, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-nav .nav-item.nav-item-has-children > a::after {
     right: 5px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 219, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
   .navbar-btn {
     position: absolute;
     top: 50%;
     right: 50px;
     -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 }
 
+/* line 227, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-btn .ud-main-btn {
   padding: 8px 16px;
   background: transparent;
 }
 
+/* line 233, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-btn .ud-login-btn:hover {
   opacity: 0.5;
 }
 
+/* line 238, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-btn .ud-white-btn {
   background: rgba(255, 255, 255, 0.2);
 }
 
+/* line 241, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .navbar-btn .ud-white-btn:hover {
   background: white;
   color: var(--heading-color);
 }
 
+/* line 250, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar-toggler .toggler-icon {
   background-color: var(--heading-color);
 }
 
+/* line 258, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar-nav .nav-item:hover > a {
   color: var(--primary-color);
   opacity: 1;
 }
 
+/* line 264, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar-nav .nav-item a {
   color: var(--heading-color);
 }
 
+/* line 267, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
   color: var(--primary-color);
   opacity: 1;
 }
 
+/* line 278, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar-btn .ud-main-btn.ud-login-btn {
   color: var(--heading-color);
 }
 
+/* line 281, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar-btn .ud-main-btn.ud-login-btn:hover {
   color: var(--primary-color);
   opacity: 1;
 }
 
+/* line 288, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar-btn .ud-white-btn {
   background: var(--primary-color);
   color: var(--white);
 }
 
+/* line 292, ../../../../../Desktop/work/daniellimae/assets/scss/_header.scss */
 .sticky .navbar-btn .ud-white-btn:hover {
   background: var(--heading-color);
 }
 
 /* ===== Hero CSS ===== */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero {
   background: var(--primary-color);
   padding-top: 180px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
   .ud-hero {
     padding-top: 160px;
   }
 }
 
 @media (max-width: 767px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
   .ud-hero {
     padding-top: 130px;
   }
 }
 
+/* line 18, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-content {
   max-width: 780px;
   margin: auto;
   margin-bottom: 30px;
 }
 
+/* line 23, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-content .ud-hero-title {
   color: var(--white);
   font-weight: 700;
@@ -546,6 +639,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 23, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
   .ud-hero-content .ud-hero-title {
     font-size: 38px;
     line-height: 50px;
@@ -553,12 +647,14 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 23, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
   .ud-hero-content .ud-hero-title {
     font-size: 26px;
     line-height: 38px;
   }
 }
 
+/* line 42, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-content .ud-hero-desc {
   font-weight: normal;
   font-size: 20px;
@@ -572,74 +668,78 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 42, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
   .ud-hero-content .ud-hero-desc {
     font-size: 16px;
     line-height: 30px;
   }
 }
 
+/* line 60, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
+/* line 65, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-buttons .ud-main-btn {
   margin: 8px;
 }
 
 @media (max-width: 767px) {
+  /* line 65, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
   .ud-hero-buttons .ud-main-btn {
     margin: 5px;
   }
 }
 
 @media (max-width: 767px) {
+  /* line 73, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
   .ud-hero-buttons .ud-main-btn {
     padding: 12px 16px;
   }
 }
 
+/* line 79, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-buttons .ud-white-btn {
   background: var(--white);
   color: var(--heading-color);
 }
 
+/* line 83, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-buttons .ud-white-btn:hover {
-  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
   background: #fefefe;
   color: var(--primary-color);
 }
 
+/* line 91, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-buttons .ud-link-btn:hover {
   color: var(--white);
   background: transparent;
   opacity: 0.5;
 }
 
+/* line 99, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-brands-wrapper {
   text-align: center;
   margin-bottom: 40px;
 }
 
+/* line 103, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-brands-wrapper img {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 0.5;
   max-width: 250px;
 }
 
+/* line 108, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-brands-wrapper img:hover {
   opacity: 1;
 }
 
+/* line 114, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-image {
   max-width: 845px;
   margin: auto;
@@ -648,44 +748,52 @@ p {
   z-index: 1;
 }
 
+/* line 121, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-image img {
   max-width: 100%;
   text-align: center;
 }
 
+/* line 126, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-image .shape {
   position: absolute;
   z-index: -1;
 }
 
+/* line 130, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-image .shape.shape-1 {
   bottom: 0;
   left: -30px;
 }
 
+/* line 135, ../../../../../Desktop/work/daniellimae/assets/scss/_hero.scss */
 .ud-hero-image .shape.shape-2 {
   top: -20px;
   right: -20px;
 }
 
 /* ===== Features CSS ===== */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-features {
   padding-top: 120px;
   padding-bottom: 90px;
 }
 
 @media (max-width: 767px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
   .ud-features {
     padding-top: 80px;
     padding-bottom: 40px;
   }
 }
 
+/* line 13, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-section-title {
   max-width: 620px;
   margin-bottom: 70px;
 }
 
+/* line 17, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-section-title span {
   font-weight: 600;
   font-size: 18px;
@@ -693,6 +801,7 @@ p {
   margin-bottom: 10px;
 }
 
+/* line 24, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-section-title h2 {
   font-weight: 700;
   font-size: 42px;
@@ -702,39 +811,41 @@ p {
   margin-bottom: 20px;
 }
 
+/* line 33, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-section-title p {
   font-size: 20px;
   line-height: 30px;
 }
 
 @media (max-width: 767px) {
+  /* line 33, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
   .ud-section-title p {
     font-size: 16px;
     line-height: 26px;
   }
 }
 
+/* line 44, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-single-feature {
   margin-bottom: 40px;
 }
 
+/* line 48, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-single-feature:hover .ud-feature-icon::before {
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
+/* line 53, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-single-feature .ud-feature-icon {
   width: 70px;
   height: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 14px;
   background: var(--primary-color);
   font-size: 32px;
@@ -745,6 +856,7 @@ p {
   margin-bottom: 40px;
 }
 
+/* line 68, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-single-feature .ud-feature-icon::before {
   content: "";
   position: absolute;
@@ -757,11 +869,18 @@ p {
   opacity: 0.2;
   z-index: -1;
   -webkit-transform: rotate(23deg);
+  -moz-transform: rotate(23deg);
+  -ms-transform: rotate(23deg);
+  -o-transform: rotate(23deg);
   transform: rotate(23deg);
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
+/* line 84, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-single-feature .ud-feature-title {
   font-weight: 700;
   font-size: 20px;
@@ -770,76 +889,85 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 84, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
   .ud-single-feature .ud-feature-title {
     font-size: 18px;
     line-height: 26px;
   }
 }
 
+/* line 96, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-single-feature .ud-feature-desc {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 40px;
 }
 
+/* line 102, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-single-feature .ud-feature-link {
   font-weight: 500;
   color: var(--body-color);
 }
 
+/* line 106, ../../../../../Desktop/work/daniellimae/assets/scss/_features.scss */
 .ud-single-feature .ud-feature-link:hover {
   color: var(--primary-color);
 }
 
 /* ===== About CSS ===== */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
 .ud-about {
   background: #f3f4fe;
   padding: 120px 0;
 }
 
 @media (max-width: 767px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
   .ud-about {
     padding: 80px 0;
   }
 }
 
+/* line 12, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
 .ud-about-wrapper {
   background: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.08);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 12, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
   .ud-about-wrapper {
     display: block;
   }
 }
 
+/* line 23, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
 .ud-about-content-wrapper {
   padding: 70px;
 }
 
 @media (max-width: 767px) {
+  /* line 23, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
   .ud-about-content-wrapper {
     padding: 50px 30px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 23, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
   .ud-about-content-wrapper {
     padding: 50px;
   }
 }
 
+/* line 35, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
 .ud-about-content {
   max-width: 500px;
 }
 
+/* line 38, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
 .ud-about-content .tag {
   font-weight: 500;
   font-size: 14px;
@@ -850,6 +978,7 @@ p {
   margin-bottom: 20px;
 }
 
+/* line 48, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
 .ud-about-content h2 {
   font-weight: bold;
   font-size: 36px;
@@ -858,43 +987,50 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 48, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
   .ud-about-content h2 {
     font-size: 26px;
     line-height: 38px;
   }
 }
 
+/* line 60, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
 .ud-about-content p {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 40px;
 }
 
+/* line 67, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
 .ud-about-content .ud-main-btn:hover {
   background: #2748b4;
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 74, ../../../../../Desktop/work/daniellimae/assets/scss/_about.scss */
   .ud-about-image {
     text-align: center;
   }
 }
 
 /* ===== Pricing CSS ===== */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-pricing {
   padding-top: 120px;
   padding-bottom: 90px;
+  overflow-x: hidden;
 }
 
 @media (max-width: 767px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
   .ud-pricing {
     padding-top: 80px;
     padding-bottom: 40px;
   }
 }
 
+/* line 14, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing {
   margin-bottom: 40px;
   background: var(--white);
@@ -905,22 +1041,25 @@ p {
   position: relative;
 }
 
+/* line 23, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing.active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1E1E2F), to(#179bee));
-  background: linear-gradient(180deg, #1E1E2F 0%, #179bee 100%);
+  background: linear-gradient(180deg, #3056d3 0%, #179bee 100%);
   border: none;
   padding: 55px 30px;
 }
 
+/* line 29, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing.active .ud-pricing-header h3,
 .ud-single-pricing.active .ud-pricing-header h4 {
   color: var(--white);
 }
 
+/* line 35, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing.active .ud-pricing-body li {
   color: var(--white);
 }
 
+/* line 41, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing.first-item::after, .ud-single-pricing.last-item::after {
   content: "";
   position: absolute;
@@ -929,6 +1068,7 @@ p {
   z-index: 1;
 }
 
+/* line 50, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing.first-item::after {
   background: var(--primary-color);
   left: -2px;
@@ -936,6 +1076,7 @@ p {
   border-radius: 0px 55px 0px 8px;
 }
 
+/* line 57, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing.last-item::after {
   background: #13c296;
   top: -2px;
@@ -943,6 +1084,7 @@ p {
   border-radius: 0px 8px 0px 55px;
 }
 
+/* line 64, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-popular-tag {
   display: inline-block;
   padding: 10px 25px;
@@ -953,12 +1095,14 @@ p {
   font-weight: 600;
 }
 
+/* line 75, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-pricing-header h3 {
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 8px;
 }
 
+/* line 80, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-pricing-header h4 {
   font-weight: 600;
   font-size: 26px;
@@ -966,44 +1110,52 @@ p {
   margin-bottom: 40px;
 }
 
+/* line 88, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-pricing-body {
   margin-bottom: 40px;
 }
 
+/* line 91, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-pricing-body li {
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 18px;
 }
 
+/* line 98, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-main-btn {
   border-radius: 30px;
   padding: 15px 40px;
 }
 
+/* line 103, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-border-btn {
   border: 1px solid #d4deff;
   color: var(--primary-color);
   background: var(--white);
 }
 
+/* line 108, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-border-btn:hover {
   color: var(--white);
   border-color: var(--primary-color);
   background: var(--primary-color);
 }
 
+/* line 114, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-white-btn {
   background: var(--white);
   color: var(--heading-color);
 }
 
+/* line 118, ../../../../../Desktop/work/daniellimae/assets/scss/_pricing.scss */
 .ud-single-pricing .ud-white-btn:hover {
   color: var(--white);
   background: var(--heading-color);
 }
 
 /* ===== FAQ CSS ===== */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
 .ud-faq {
   padding-top: 120px;
   padding-bottom: 90px;
@@ -1013,12 +1165,14 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
   .ud-faq {
     padding-top: 80px;
     padding-bottom: 50px;
   }
 }
 
+/* line 15, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
 .ud-faq .shape {
   position: absolute;
   z-index: -1;
@@ -1026,24 +1180,21 @@ p {
   bottom: 0;
 }
 
+/* line 23, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
 .ud-single-faq {
   background: var(--white);
   border: 1px solid #f3f4fe;
-  -webkit-box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
-          box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+  box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
   border-radius: 10px;
   margin-bottom: 30px;
 }
 
+/* line 30, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
 .ud-single-faq .ud-faq-btn {
   text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border: none;
   background: transparent;
   font-weight: 600;
@@ -1054,26 +1205,26 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+  /* line 30, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
   .ud-single-faq .ud-faq-btn {
     padding: 15px;
   }
 }
 
+/* line 49, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
 .ud-single-faq .ud-faq-btn.collapsed span.icon i {
   -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
+/* line 54, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
 .ud-single-faq .ud-faq-btn span.icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 42px;
   height: 42px;
   background: rgba(48, 86, 211, 0.06);
@@ -1082,71 +1233,80 @@ p {
   margin-right: 24px;
 }
 
+/* line 65, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
 .ud-single-faq .ud-faq-btn span.icon i {
   -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-size: 14px;
   font-weight: 700;
 }
 
+/* line 74, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
 .ud-single-faq .ud-faq-body {
   padding: 0px 30px 40px 95px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+  /* line 74, ../../../../../Desktop/work/daniellimae/assets/scss/_faq.scss */
   .ud-single-faq .ud-faq-body {
     padding: 0px 16px 20px 82px;
   }
 }
 
 /* ===== Testimonials CSS ===== */
+/* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-testimonials {
   padding-top: 120px;
 }
 
 @media (max-width: 767px) {
+  /* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
   .ud-testimonials {
     padding-top: 80px;
   }
 }
 
+/* line 10, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial {
   padding: 30px;
-  -webkit-box-shadow: 0px 60px 120px -20px #ebeffd;
-          box-shadow: 0px 60px 120px -20px #ebeffd;
+  box-shadow: 0px 60px 120px -20px #ebeffd;
   background: var(--white);
   margin-bottom: 50px;
 }
 
+/* line 16, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial .ud-testimonial-ratings {
   margin-bottom: 10px;
 }
 
+/* line 19, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial .ud-testimonial-ratings i {
   color: #fbb040;
 }
 
+/* line 24, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial .ud-testimonial-content {
   margin-bottom: 25px;
 }
 
+/* line 27, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial .ud-testimonial-content p {
   font-size: 16px;
   line-height: 30px;
   color: #637381;
 }
 
+/* line 34, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial .ud-testimonial-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
+/* line 38, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial .ud-testimonial-info .ud-testimonial-image {
   width: 50px;
   height: 50px;
@@ -1155,20 +1315,24 @@ p {
   margin-right: 20px;
 }
 
+/* line 47, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial .ud-testimonial-info .ud-testimonial-meta h4 {
   font-weight: 600;
   font-size: 14px;
 }
 
+/* line 52, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-single-testimonial .ud-testimonial-info .ud-testimonial-meta p {
   font-size: 12px;
   color: #969696;
 }
 
+/* line 61, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-brands .ud-title {
   margin-bottom: 30px;
 }
 
+/* line 64, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-brands .ud-title h6 {
   font-weight: normal;
   font-size: 12px;
@@ -1177,6 +1341,7 @@ p {
   position: relative;
 }
 
+/* line 71, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-brands .ud-title h6::after {
   content: "";
   position: absolute;
@@ -1187,53 +1352,57 @@ p {
   top: 50%;
 }
 
+/* line 83, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-brands .ud-brands-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
   margin-right: -40px;
 }
 
+/* line 89, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-brands .ud-brands-logo .ud-single-logo {
   margin-right: 40px;
   margin-bottom: 20px;
   max-width: 140px;
 }
 
+/* line 95, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-brands .ud-brands-logo .ud-single-logo:hover img {
-  -webkit-filter: none;
-          filter: none;
+  filter: none;
 }
 
+/* line 100, ../../../../../Desktop/work/daniellimae/assets/scss/_testimonials.scss */
 .ud-brands .ud-brands-logo .ud-single-logo img {
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  filter: grayscale(1);
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 /* ===== Team CSS ===== */
+/* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-team {
   padding-top: 120px;
   padding-bottom: 80px;
 }
 
 @media (max-width: 767px) {
+  /* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
   .ud-team {
     padding-top: 80px;
     padding-bottom: 40px;
   }
 }
 
+/* line 12, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team {
   margin-bottom: 40px;
 }
 
+/* line 15, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-image-wrapper {
   width: 170px;
   height: 170px;
@@ -1241,35 +1410,42 @@ p {
   margin: 0px auto 25px;
 }
 
+/* line 21, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-image {
   border-radius: 50%;
 }
 
+/* line 24, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-image img {
   width: 100%;
   border-radius: 50%;
 }
 
+/* line 30, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .shape {
   position: absolute;
   z-index: -1;
 }
 
+/* line 34, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .shape.shape-1 {
   top: 0;
   left: 0;
 }
 
+/* line 38, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .shape.shape-2 {
   bottom: 0;
   right: 0;
 }
 
+/* line 44, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-info {
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* line 48, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-info h5 {
   font-weight: 500;
   font-size: 18px;
@@ -1277,56 +1453,51 @@ p {
   margin-bottom: 10px;
 }
 
+/* line 55, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-info h6 {
   font-weight: 500;
   font-size: 12px;
   color: var(--body-color);
 }
 
+/* line 62, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
+/* line 67, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-socials a {
   width: 32px;
   height: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin: 0px 10px;
   color: #cdced6;
 }
 
+/* line 76, ../../../../../Desktop/work/daniellimae/assets/scss/_team.scss */
 .ud-single-team .ud-team-socials a:hover {
   color: var(--primary-color);
 }
 
 /* ===== Contact CSS ===== */
+/* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact {
   padding: 120px 0px;
   position: relative;
 }
 
 @media (max-width: 767px) {
+  /* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
   .ud-contact {
     padding: 80px 0;
   }
 }
 
+/* line 10, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact::after {
   content: "";
   position: absolute;
@@ -1339,21 +1510,25 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 10, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
   .ud-contact::after {
     height: 45%;
   }
 }
 
+/* line 26, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-title {
   margin-bottom: 150px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 26, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
   .ud-contact-title {
     margin-bottom: 50px;
   }
 }
 
+/* line 33, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-title span {
   color: var(--heading-color);
   font-weight: 600;
@@ -1361,75 +1536,78 @@ p {
   margin-bottom: 20px;
 }
 
+/* line 40, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-title h2 {
   font-weight: 600;
   font-size: 35px;
   line-height: 41px;
 }
 
+/* line 47, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-info-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  /* line 47, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
   .ud-contact-info-wrapper {
     margin-bottom: 50px;
   }
 }
 
+/* line 56, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-info-wrapper .ud-single-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 100%;
   width: 330px;
   margin-bottom: 30px;
 }
 
+/* line 63, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-info-wrapper .ud-info-icon {
   font-size: 32px;
   color: var(--primary-color);
   margin-right: 24px;
 }
 
+/* line 70, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-info-wrapper .ud-info-meta h5 {
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 15px;
 }
 
+/* line 76, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-info-wrapper .ud-info-meta p {
   font-size: 15px;
   line-height: 24px;
 }
 
+/* line 83, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-form-wrapper {
-  -webkit-box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   background: var(--white);
   padding: 60px;
 }
 
 @media (max-width: 767px) {
+  /* line 83, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
   .ud-contact-form-wrapper {
     padding: 40px 30px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 83, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
   .ud-contact-form-wrapper {
     padding: 50px 40px;
   }
 }
 
+/* line 97, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-form-wrapper .ud-contact-form-title {
   font-style: normal;
   font-weight: 600;
@@ -1438,21 +1616,25 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 97, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
   .ud-contact-form-wrapper .ud-contact-form-title {
     font-size: 24px;
   }
 }
 
+/* line 108, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-form-wrapper .ud-form-group {
   margin-bottom: 25px;
 }
 
+/* line 111, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-form-wrapper .ud-form-group label {
   display: block;
   font-weight: normal;
   font-size: 12px;
 }
 
+/* line 117, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-form-wrapper .ud-form-group input,
 .ud-contact-form-wrapper .ud-form-group textarea {
   display: block;
@@ -1464,12 +1646,14 @@ p {
   resize: none;
 }
 
+/* line 127, ../../../../../Desktop/work/daniellimae/assets/scss/_contact.scss */
 .ud-contact-form-wrapper .ud-form-group input:focus,
 .ud-contact-form-wrapper .ud-form-group textarea:focus {
   border-color: var(--primary-color);
 }
 
 /* ===== Footer CSS ===== */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer {
   background: var(--heading-color);
   padding-top: 100px;
@@ -1478,40 +1662,48 @@ p {
   overflow: hidden;
 }
 
+/* line 10, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer .shape {
   position: absolute;
   z-index: -1;
 }
 
+/* line 14, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer .shape.shape-1 {
   top: 0;
   left: 0;
 }
 
+/* line 19, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer .shape.shape-2 {
   top: 0;
   right: 0;
 }
 
+/* line 24, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer .shape.shape-3 {
   bottom: 0;
   right: 0;
 }
 
+/* line 31, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget {
   margin-bottom: 50px;
 }
 
+/* line 34, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-footer-logo {
   max-width: 160px;
   display: block;
   margin-bottom: 10px;
 }
 
+/* line 39, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-footer-logo img {
   width: 100%;
 }
 
+/* line 44, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-desc {
   font-size: 15px;
   line-height: 24px;
@@ -1520,25 +1712,25 @@ p {
   max-width: 260px;
 }
 
+/* line 52, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
+/* line 56, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-socials a {
   font-size: 16px;
   color: #dddddd;
   margin-right: 20px;
 }
 
+/* line 61, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-socials a:hover {
   color: var(--primary-color);
 }
 
+/* line 67, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-title {
   font-weight: 600;
   font-size: 18px;
@@ -1546,6 +1738,7 @@ p {
   color: var(--white);
 }
 
+/* line 75, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-links a {
   display: inline-block;
   margin-bottom: 12px;
@@ -1554,22 +1747,20 @@ p {
   color: #f3f4fe;
 }
 
+/* line 82, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-links a:hover {
   color: var(--primary-color);
   padding-left: 10px;
 }
 
+/* line 89, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-brands {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+/* line 94, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-widget .ud-widget-brands a {
   display: block;
   max-width: 120px;
@@ -1578,33 +1769,32 @@ p {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* line 94, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
   .ud-widget .ud-widget-brands a {
     max-width: 100px;
   }
 }
 
+/* line 107, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer-bottom {
   padding: 35px 0;
   border-top: 1px solid rgba(136, 144, 164, 0.43);
 }
 
+/* line 111, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer-bottom .ud-footer-bottom-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
+  /* line 111, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
   .ud-footer-bottom .ud-footer-bottom-left {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
 
+/* line 119, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer-bottom .ud-footer-bottom-left a {
   font-weight: normal;
   font-size: 15px;
@@ -1614,15 +1804,18 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 119, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
   .ud-footer-bottom .ud-footer-bottom-left a {
     margin: 0px 8px 8px;
   }
 }
 
+/* line 130, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer-bottom .ud-footer-bottom-left a:hover {
   color: var(--primary-color);
 }
 
+/* line 136, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer-bottom .ud-footer-bottom-right {
   text-align: right;
   font-weight: normal;
@@ -1630,15 +1823,18 @@ p {
   color: #f3f4fe;
 }
 
+/* line 142, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer-bottom .ud-footer-bottom-right a {
   color: var(--primary-color);
 }
 
+/* line 145, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
 .ud-footer-bottom .ud-footer-bottom-right a:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 767px) {
+  /* line 136, ../../../../../Desktop/work/daniellimae/assets/scss/_footer.scss */
   .ud-footer-bottom .ud-footer-bottom-right {
     text-align: center;
     margin-top: 10px;
@@ -1646,6 +1842,7 @@ p {
 }
 
 /* ====== Banner CSS ======= */
+/* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_banner.scss */
 .ud-page-banner {
   padding-top: 130px;
   padding-bottom: 80px;
@@ -1656,12 +1853,14 @@ p {
   background-size: cover;
 }
 
+/* line 12, ../../../../../Desktop/work/daniellimae/assets/scss/_banner.scss */
 .ud-banner-content {
   text-align: center;
   max-width: 600px;
   margin: auto;
 }
 
+/* line 17, ../../../../../Desktop/work/daniellimae/assets/scss/_banner.scss */
 .ud-banner-content h1 {
   color: var(--white);
   font-size: 38px;
@@ -1669,29 +1868,33 @@ p {
 }
 
 /* ====== Login CSS ====== */
+/* line 2, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-login {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
+/* line 7, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-login-wrapper {
   max-width: 500px;
   margin: auto;
   background: var(--white);
   text-align: center;
   padding: 60px;
-  -webkit-box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.05);
 }
 
+/* line 15, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-login-wrapper .ud-login-logo {
   margin-bottom: 30px;
 }
 
+/* line 21, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-login-form .ud-form-group {
   margin-bottom: 25px;
 }
 
+/* line 24, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-login-form .ud-form-group input {
   width: 100%;
   border: 2px solid #dddddd;
@@ -1701,138 +1904,156 @@ p {
   color: var(--body-color);
 }
 
+/* line 32, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-login-form .ud-form-group input:focus {
   border-color: var(--primary-color);
 }
 
+/* line 39, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect {
   padding-top: 10px;
   padding-bottom: 30px;
 }
 
+/* line 43, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect p {
   font-size: 16px;
   color: var(--body-color);
   margin-bottom: 10px;
 }
 
+/* line 49, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: -10px;
   margin-right: -10px;
 }
 
+/* line 55, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul li {
   width: 100%;
 }
 
+/* line 58, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul li a {
   height: 45px;
   background: var(--primary-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin: 10px;
   border-radius: 6px;
   color: var(--white);
   font-size: 20px;
 }
 
+/* line 69, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul li a.facebook {
   background: #4064ac;
 }
 
+/* line 72, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul li a.facebook:hover {
   background: #315294;
 }
 
+/* line 77, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul li a.twitter {
   background: #1c9cea;
 }
 
+/* line 80, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul li a.twitter:hover {
   background: #0f8bd8;
 }
 
+/* line 85, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul li a.google {
   background: #d64937;
 }
 
+/* line 88, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .ud-socials-connect ul li a.google:hover {
   background: #c53b29;
 }
 
+/* line 97, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .forget-pass {
   font-size: 16px;
   color: var(--body-color);
   margin-bottom: 8px;
 }
 
+/* line 103, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .signup-option {
   color: var(--body-color);
   font-size: 16px;
 }
 
+/* line 107, ../../../../../Desktop/work/daniellimae/assets/scss/_login.scss */
 .signup-option a {
   color: var(--primary-color);
 }
 
 /* ====== Blog CSS ====== */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-blog-grids {
   padding-top: 120px;
   padding-bottom: 80px;
 }
 
+/* line 7, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-blog-grids.ud-related-articles {
   padding-top: 100px;
 }
 
 @media (max-width: 767px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
   .ud-blog-grids {
     padding-top: 80px;
     padding-bottom: 40px;
   }
 }
 
+/* line 17, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog {
   margin-bottom: 40px;
 }
 
+/* line 22, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog:hover .ud-blog-image img {
   -webkit-transform: scale(1.1) rotate(3deg);
+  -moz-transform: scale(1.1) rotate(3deg);
+  -ms-transform: scale(1.1) rotate(3deg);
+  -o-transform: scale(1.1) rotate(3deg);
   transform: scale(1.1) rotate(3deg);
 }
 
+/* line 28, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog .ud-blog-image {
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
+/* line 33, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog .ud-blog-image a {
   display: block;
 }
 
+/* line 37, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog .ud-blog-image img {
   width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
+/* line 43, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog .ud-blog-date {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 12px;
   font-weight: 600;
@@ -1843,6 +2064,7 @@ p {
   margin-bottom: 20px;
 }
 
+/* line 55, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog .ud-blog-title {
   font-weight: 600;
   font-size: 24px;
@@ -1851,25 +2073,30 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 55, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
   .ud-single-blog .ud-blog-title {
     font-size: 20px;
     line-height: 28px;
   }
 }
 
+/* line 66, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog .ud-blog-title a {
   color: inherit;
 }
 
+/* line 69, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog .ud-blog-title a:hover {
   color: var(--primary-color);
 }
 
+/* line 75, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-single-blog .ud-blog-desc {
   font-size: 16px;
   line-height: 28px;
 }
 
+/* line 81, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-related-articles-title {
   font-weight: 800;
   font-size: 28px;
@@ -1878,6 +2105,7 @@ p {
   margin-bottom: 50px;
 }
 
+/* line 88, ../../../../../Desktop/work/daniellimae/assets/scss/_blog.scss */
 .ud-related-articles-title::after {
   content: "";
   position: absolute;
@@ -1889,16 +2117,19 @@ p {
 }
 
 /* ====== Blog Details CSS ====== */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-details {
   padding-top: 120px;
 }
 
 @media (max-width: 767px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-details {
     padding-top: 80px;
   }
 }
 
+/* line 11, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-details-image {
   position: relative;
   border-radius: 5px;
@@ -1907,79 +2138,67 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 11, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-details-image {
     height: 300px;
   }
 }
 
+/* line 21, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-details-image > img {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
+  object-fit: cover;
+  object-position: center center;
 }
 
+/* line 32, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(46.88%, rgba(48, 86, 211, 0)), color-stop(93.23%, rgba(13, 21, 49, 0.72)));
+  align-items: flex-end;
   background: linear-gradient(180deg, rgba(48, 86, 211, 0) 46.88%, rgba(13, 21, 49, 0.72) 93.23%);
   border-radius: 5px;
   padding: 30px;
 }
 
+/* line 49, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
+  /* line 49, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-overlay-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
+/* line 58, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-author {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-right: 40px;
 }
 
 @media (max-width: 767px) {
+  /* line 58, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-overlay-content .ud-blog-author {
     margin-right: 0px;
     margin-bottom: 20px;
   }
 }
 
+/* line 68, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-author img {
   width: 40px;
   height: 40px;
@@ -1988,6 +2207,7 @@ p {
   margin-right: 15px;
 }
 
+/* line 76, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-author span {
   font-weight: 500;
   font-size: 14px;
@@ -1995,30 +2215,26 @@ p {
   color: #ffffff;
 }
 
+/* line 83, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-author a {
   color: inherit;
 }
 
+/* line 86, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-author a:hover {
   color: var(--primary-color);
 }
 
+/* line 92, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-meta {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
+/* line 96, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-meta p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
@@ -2026,25 +2242,30 @@ p {
   margin-right: 30px;
 }
 
+/* line 106, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-meta p:last-child {
   margin-right: 0px;
 }
 
+/* line 110, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-overlay-content .ud-blog-meta p i {
   font-size: 16px;
   margin-right: 10px;
 }
 
+/* line 118, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-details-content {
   padding-top: 60px;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1920px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* line 118, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-details-content {
     padding-right: 50px;
   }
 }
 
+/* line 126, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-details-title {
   font-weight: 700;
   font-size: 35px;
@@ -2053,6 +2274,7 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 126, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-details-title {
     font-size: 26px;
     line-height: 35px;
@@ -2060,18 +2282,21 @@ p {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 126, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-details-title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
+/* line 143, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-details-para {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 30px;
 }
 
+/* line 149, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-details-subtitle {
   font-weight: 700;
   font-size: 26px;
@@ -2079,12 +2304,14 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 149, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-details-subtitle {
     font-size: 22px;
     margin-bottom: 25px;
   }
 }
 
+/* line 160, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-quote {
   background-image: url("../images/blog/quote-bg.svg");
   background-repeat: no-repeat;
@@ -2095,11 +2322,13 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 160, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-quote {
     padding: 30px;
   }
 }
 
+/* line 172, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-quote i {
   font-size: 40px;
   font-weight: 700;
@@ -2109,11 +2338,13 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 172, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-quote i {
     margin-bottom: 15px;
   }
 }
 
+/* line 184, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-quote p {
   font-style: italic;
   font-weight: 600;
@@ -2125,12 +2356,14 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 184, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-quote p {
     font-size: 14px;
     line-height: 24px;
   }
 }
 
+/* line 199, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-quote h6 {
   color: var(--body-color);
   font-style: italic;
@@ -2140,53 +2373,45 @@ p {
   text-align: center;
 }
 
+/* line 209, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-details-action {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 767px) {
+  /* line 209, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-details-action {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
+/* line 220, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-tags {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
+  /* line 220, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-blog-tags {
     margin-bottom: 20px;
   }
 }
 
+/* line 228, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-tags li {
   margin-right: 14px;
 }
 
+/* line 231, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-tags li:last-child {
   margin-right: 0px;
 }
 
+/* line 236, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-tags a {
   padding: 8px 16px;
   font-size: 12px;
@@ -2196,20 +2421,19 @@ p {
   border-radius: 3px;
 }
 
+/* line 245, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-tags a:hover {
   background: var(--primary-color);
   color: var(--white);
 }
 
+/* line 252, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
+/* line 256, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share h6 {
   font-weight: 500;
   font-size: 12px;
@@ -2217,68 +2441,70 @@ p {
   margin-right: 20px;
 }
 
+/* line 264, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
+/* line 268, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links li {
   margin-right: 14px;
 }
 
+/* line 271, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links li:last-child {
   margin-right: 0px;
 }
 
+/* line 276, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links a {
   font-size: 18px;
   width: 35px;
   height: 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   color: var(--white);
 }
 
+/* line 286, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links a.facebook {
   background: #4064ac;
 }
 
+/* line 289, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links a.facebook:hover {
   background: #315294;
 }
 
+/* line 294, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links a.twitter {
   background: #1c9cea;
 }
 
+/* line 297, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links a.twitter:hover {
   background: #0f8bd8;
 }
 
+/* line 302, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links a.linkedin {
   background: #007ab9;
 }
 
+/* line 305, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-share-links a.linkedin:hover {
   background: #03689b;
 }
 
+/* line 312, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-blog-sidebar {
   padding-top: 60px;
 }
 
+/* line 316, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box {
   background: var(--primary-color);
   padding: 60px 45px;
@@ -2290,32 +2516,38 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+  /* line 316, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-newsletter-box {
     padding: 50px 30px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 316, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-newsletter-box {
     padding: 60px 45px;
   }
 }
 
+/* line 333, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .shape {
   position: absolute;
   z-index: -1;
 }
 
+/* line 337, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .shape.shape-1 {
   top: 0;
   right: 0;
 }
 
+/* line 342, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .shape.shape-2 {
   left: 0;
   bottom: 0;
 }
 
+/* line 348, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .ud-newsletter-title {
   font-weight: 600;
   font-size: 25px;
@@ -2324,25 +2556,28 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 348, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-newsletter-box .ud-newsletter-title {
     font-size: 23px;
   }
 }
 
+/* line 359, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box p {
   font-size: 16px;
   line-height: 24px;
   color: var(--white);
 }
 
+/* line 365, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .ud-newsletter-form {
   margin-top: 30px;
 }
 
+/* line 368, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .ud-newsletter-form input {
   width: 100%;
-  -webkit-box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.01);
-          box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.01);
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.2);
   color: var(--white);
@@ -2352,53 +2587,44 @@ p {
   padding: 12px 20px;
 }
 
-.ud-newsletter-box .ud-newsletter-form input::-webkit-input-placeholder {
-  color: var(--white);
-  opacity: 1;
-}
-
-.ud-newsletter-box .ud-newsletter-form input:-ms-input-placeholder {
-  color: var(--white);
-  opacity: 1;
-}
-
-.ud-newsletter-box .ud-newsletter-form input::-ms-input-placeholder {
-  color: var(--white);
-  opacity: 1;
-}
-
+/* line 379, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .ud-newsletter-form input::placeholder {
   color: var(--white);
   opacity: 1;
 }
 
+/* line 384, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .ud-newsletter-form input:focus {
   border-color: var(--white);
 }
 
+/* line 389, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .ud-newsletter-form .ud-main-btn {
   background: #13c296;
-  -webkit-box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.01);
-          box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.01);
   border-radius: 5px;
   width: 100%;
   margin-bottom: 24px;
 }
 
+/* line 396, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .ud-newsletter-form .ud-main-btn:hover {
   background: var(--heading-color);
 }
 
+/* line 401, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-newsletter-box .ud-newsletter-form .ud-newsletter-note {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
 }
 
+/* line 409, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box {
   margin-bottom: 50px;
 }
 
+/* line 412, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-box-title {
   font-weight: 600;
   font-size: 28px;
@@ -2407,6 +2633,7 @@ p {
   margin-bottom: 20px;
 }
 
+/* line 419, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-box-title::after {
   content: "";
   position: absolute;
@@ -2417,22 +2644,21 @@ p {
   bottom: 0;
 }
 
+/* line 431, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-list li {
   padding: 20px 0;
   border-bottom: 1px solid #f2f3f8;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
+/* line 437, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-list li:last-child {
   padding-bottom: 0px;
   border-bottom: 0px;
 }
 
+/* line 443, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-list .ud-article-image {
   max-width: 80px;
   width: 100%;
@@ -2443,6 +2669,7 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+  /* line 443, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-articles-box .ud-articles-list .ud-article-image {
     max-width: 65px;
     height: 65px;
@@ -2450,16 +2677,19 @@ p {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 443, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-articles-box .ud-articles-list .ud-article-image {
     max-width: 80px;
     height: 80px;
   }
 }
 
+/* line 461, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-list .ud-article-image img {
   width: 100%;
 }
 
+/* line 466, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-list .ud-article-title {
   font-weight: 500;
   font-size: 18px;
@@ -2468,57 +2698,66 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 466, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
   .ud-articles-box .ud-articles-list .ud-article-title {
     font-size: 16px;
   }
 }
 
+/* line 476, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-list .ud-article-title a {
   color: inherit;
 }
 
+/* line 479, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-list .ud-article-title a:hover {
   color: var(--primary-color);
 }
 
+/* line 485, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-articles-box .ud-articles-list .ud-article-author {
   font-size: 14px;
 }
 
+/* line 491, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-banner-ad {
   border-radius: 5px;
   overflow: hidden;
 }
 
+/* line 495, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-banner-ad a {
   display: block;
 }
 
+/* line 499, ../../../../../Desktop/work/daniellimae/assets/scss/_blog-details.scss */
 .ud-banner-ad img {
   width: 100%;
 }
 
 /* ====== Error 404 CSS ======= */
+/* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 @media (max-width: 767px) {
+  /* line 3, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
   .ud-404 {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
 
+/* line 13, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-wrapper {
   text-align: center;
   max-width: 850px;
   margin: 0px auto;
   background: var(--white);
   padding: 100px 60px;
-  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -2526,26 +2765,31 @@ p {
 }
 
 @media (max-width: 767px) {
+  /* line 13, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
   .ud-404-wrapper {
     padding: 50px 30px;
   }
 }
 
+/* line 29, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-wrapper .shape {
   position: absolute;
   z-index: -1;
 }
 
+/* line 33, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-wrapper .shape.shape-1 {
   top: 0;
   left: 0;
 }
 
+/* line 38, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-wrapper .shape.shape-2 {
   right: 0;
   bottom: 0;
 }
 
+/* line 45, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-title {
   font-size: 42px;
   font-weight: 700;
@@ -2553,17 +2797,20 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 45, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
   .ud-404-title {
     font-size: 35px;
   }
 }
 
 @media (max-width: 767px) {
+  /* line 45, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
   .ud-404-title {
     font-size: 30px;
   }
 }
 
+/* line 59, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-subtitle {
   font-size: 24px;
   font-weight: 400;
@@ -2571,31 +2818,28 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 59, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
   .ud-404-subtitle {
     font-size: 22px;
   }
 }
 
 @media (max-width: 767px) {
+  /* line 59, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
   .ud-404-subtitle {
     font-size: 18px;
   }
 }
 
+/* line 73, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
+/* line 79, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-links a {
   font-size: 16px;
   font-weight: 500;
@@ -2606,16 +2850,19 @@ p {
   margin: 5px 10px;
 }
 
+/* line 88, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
 .ud-404-links a:hover {
   background: var(--heading-color);
   color: var(--white);
 }
 
 @media (max-width: 767px) {
+  /* line 79, ../../../../../Desktop/work/daniellimae/assets/scss/_404.scss */
   .ud-404-links a {
     margin: 5px 10px;
     font-size: 14px;
     padding: 10px 20px;
   }
 }
+
 /*# sourceMappingURL=ud-styles.css.map */

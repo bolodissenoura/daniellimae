@@ -3,6 +3,7 @@
 .ud-pricing {
   padding-top: 120px;
   padding-bottom: 90px;
+  overflow-x: hidden;
 
   @media #{$xs} {
     padding-top: 80px;
